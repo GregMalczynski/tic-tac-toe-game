@@ -69,16 +69,10 @@ const handleClick = (e) => {
         } else {
             if( playerX ) {
                 e.target.innerText = 'X'
-                //e.target.classList.remove('o')
                 e.target.classList.add('x')
-                // e.target.style.backgroundColor = 'yellow'
-                // e.target.style.color = 'blue'
             } else {
                 e.target.innerText = 'O'
-                //e.target.classList.remove('x')
                 e.target.classList.add('o')
-                // e.target.style.backgroundColor = 'blue'
-                // e.target.style.color = 'yellow'
             }
             playerX = !playerX
             playerO = !playerO
@@ -106,8 +100,6 @@ const resetGame = () => {
         item.innerText = '-'
         item.classList.remove('o')
         item.classList.remove('x')
-        // item.style.backgroundColor = 'rgb(255, 255, 255)'
-        // item.style.color = 'black'
     })
     winnerText.innerHTML = ''
     currentPlayer.innerHTML = 'Turn X'

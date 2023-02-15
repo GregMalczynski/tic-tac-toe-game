@@ -9,7 +9,6 @@
     --cell-X-color: rgb(255, 218, 97);
     --cell-O-background-color: rgb(138, 97, 97);
     --cell-O-color: rgb(255, 110, 110);
-
 }
 *{
     margin: 0;
@@ -77,4 +76,3 @@ body{
     color: var(--cell-O-color);
     font-weight: 900;
 }
-
