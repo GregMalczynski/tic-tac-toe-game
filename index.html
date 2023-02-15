@@ -4,18 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700;900&display=swap" rel="stylesheet">
     <title>Tic-Tac-Toe Game</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="app">
-        <header class="app-header">
-            <h1>Tic-Tac-Toe Game</h1>
-        </header>
-        <div class="app-game-wrapper">
+        <div class="app-left-side">
+            <header class="app-header">
+                <h1>+ TicTacToe +<br/> Game</h1>
+            </header>
             <div class="app-game-current-player-wrapper">
-                <div class="app-game-current-player"></div>
+                    <div class="app-game-current-player"></div>
             </div>
+            <div class="app-winner-wrapper">
+                <div class="app-winner"></div>
+            </div>
+        </div>
+        <div class="app-game-wrapper">
             <div class="app-game-board-wrapper">
                 <div class="cell" name="cell-1">-</div>
                 <div class="cell" name="cell-2">-</div>
